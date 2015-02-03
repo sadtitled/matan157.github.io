@@ -396,7 +396,7 @@ h3 {
 	}
 	.title {
 	  font-family: 'nexa_boldregular', sans-serif;
-	  font-size: 2em !important;
+	  font-size: 1.5em !important;
 	  text-transform: uppercase;
 	  color: black;
 	  text-align: center;
@@ -408,6 +408,12 @@ h3 {
 	 	color: black;
 	 	padding-bottom: 2em;
 	 	text-align: center;
+	}
+	.section-sub-header {
+	font-family: 'nexa_lightregular', sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 1em;
 	}
 }
 
