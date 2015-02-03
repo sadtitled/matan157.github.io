@@ -10,13 +10,17 @@
 }
 
 #projects {
-	background: #eeeeee;
+	background: #93c9f7;
 	color: white;
 	padding-bottom: 5em;
 }
 
+#music {
+	background: #eeeeee;
+}
+
 .proj-header {
-	text-shadow: 2px 2px #999999;
+	
 }
 
 .proj-sub-header {
@@ -24,7 +28,7 @@
 	font-size: 3em;
 	font-style: italic;
 	text-align: center;
-	color: #e3747c;
+	color: #fff;
 	padding-top: -2em;
 }
 
@@ -32,6 +36,7 @@
 	font-family: 'nexa_lightregular', sans-serif;
 	text-align: center;
 	font-size: 2em;
+	padding-bottom: 1em;
 }
 
 .me {
@@ -114,7 +119,7 @@ a.social-link:hover {
 }
 
 .music-img {
-	padding-bottom: 1em;
+	padding-bottom: 1.5em;
 }
 
 
@@ -381,6 +386,15 @@ h3 {
 	.navbar{
 		font-size: 0.6em;
 	}
+	.section-header {
+	font-family: 'nexa_boldregular', sans-serif;
+	font-size: 3.5em;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 1.5em;
+	padding-bottom: -1.0em;
+	}
+
 }
 
 @media(max-width: 1199px) {
