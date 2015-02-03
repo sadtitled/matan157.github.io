@@ -19,6 +19,10 @@
 	background: #eeeeee;
 }
 
+#contact {
+	color: white;
+	background: #343433;
+}
 
 .proj-sub-header {
 	font-family: 'nexa_lightregular', sans-serif;
@@ -117,6 +121,123 @@ a.social-link:hover {
 
 .music-img {
 	padding-bottom: 1.5em;
+}
+
+ section#contact {
+ 	background: #3F4040;
+ 	padding-bottom: 5em;
+ }
+
+ section#contact .section-heading {
+    color: #fff;
+    padding-bottom: 0;
+}
+
+ section#contact .section-subheading {
+    color: #f5d6b2 ;
+    padding-top: 0;
+}
+
+section#contact .form-group {
+    margin-bottom: 1.5em;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 15px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+footer {
+    padding: 3em 0;
+    text-align: center;
+    color: black;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+.social-footer {
+	padding: 0 2em;
+	font-size: 2em;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+    border-color: #e3747c;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .05em;
+    color: #fff;
+    background-color: #e3747c;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #f5d6b2;
+    color: #fff;
+    background-color: #f5d6b2;
 }
 
 
