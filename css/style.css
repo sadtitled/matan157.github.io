@@ -396,7 +396,7 @@ h3 {
 	}
 	.title {
 	  font-family: 'nexa_boldregular', sans-serif;
-	  font-size: 2em;
+	  font-size: 2em !important;
 	  text-transform: uppercase;
 	  color: black;
 	  text-align: center;
@@ -404,7 +404,7 @@ h3 {
 
 	.tagline {
 		font-family: 'nexa_lightregular', sans-serif;
-	 	font-size: 1em;
+	 	font-size: 1em !important;
 	 	color: black;
 	 	padding-bottom: 2em;
 	 	text-align: center;
