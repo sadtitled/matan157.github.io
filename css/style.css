@@ -394,7 +394,21 @@ h3 {
 	padding-top: 1.5em;
 	padding-bottom: -1.0em;
 	}
+	.title {
+	  font-family: 'nexa_boldregular', sans-serif;
+	  font-size: 2em;
+	  text-transform: uppercase;
+	  color: black;
+	  text-align: center;
+	}
 
+	.tagline {
+		font-family: 'nexa_lightregular', sans-serif;
+	 	font-size: 1em;
+	 	color: black;
+	 	padding-bottom: 2em;
+	 	text-align: center;
+	}
 }
 
 @media(max-width: 1199px) {
