@@ -419,6 +419,13 @@ h3 {
 	color: #fff;
 	padding-top: -2em;
 	}
+	.social {
+	color: black;
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 0.3em;
+	padding-top: 1em;
+	}
 }
 
 @media(max-width: 1199px) {
