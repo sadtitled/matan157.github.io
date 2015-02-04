@@ -107,7 +107,6 @@ a.proj-link {
 	color: black;
 	font-size: 3em;
 	text-align: center;
-	letter-spacing: 1em;
 	padding-top: 1em;
 }
 
@@ -195,7 +194,8 @@ section#contact .text-danger {
 footer {
     padding: 3em 0;
     text-align: center;
-    color: black;
+    color: white !important;
+    background: #3c3c3a;
 }
 
 footer span.copyright {
@@ -238,6 +238,41 @@ footer ul.quicklinks {
     border-color: #f5d6b2;
     color: #fff;
     background-color: #f5d6b2;
+}
+
+a.email-link {
+	font-family: 'nexa_boldregular', sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
+
+a.email-link:hover {
+	color: #e3747c;
+	text-decoration: none;
+}
+
+a.email-link-social {
+	font-family: 'nexa_boldregular', sans-serif;
+	text-transform: uppercase;
+	color: black;
+	font-size: 2em;
+}
+
+a.email-link-social:hover {
+	color: #e3747c;
+	text-decoration: none;
+}
+
+a.social-link-foot {
+	color: white;
+}
+a.social-link-foot:hover {
+	color: #e3747c;
+}
+
+.copyright {
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
 }
 
 
@@ -553,4 +588,8 @@ h3 {
 	.navbar{
 		font-size: 0.6em;
 	}
+}
+
+.center {
+	text-align: center;
 }
