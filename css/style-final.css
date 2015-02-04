@@ -415,6 +415,10 @@ a.social-link-foot:hover {
 	.copyright .social-footer {
 		font-size: 0.6em;
 	}
+
+	a.social-link-foot {
+		font-size: 1.0em;
+	}
 }
 
 
