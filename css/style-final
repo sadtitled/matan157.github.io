@@ -1,0 +1,13 @@
+p {padding-bottom: 1em;}
+
+h1 {font-size: 4.5em;}
+
+h2 {font-size: 3em;}
+
+h3 {font-size: 2.5em;}
+
+.lato {font-family: 'Lato', sans-serif;}
+
+.bold {font-weight: 700;}
+
+.center {text-align: center;}
