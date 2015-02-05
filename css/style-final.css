@@ -148,6 +148,13 @@ footer ul.quicklinks {
 	padding-top: 1em;
 }
 
+.iframe-text {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.7em;
+	text-align: center;
+}
+
 /* ------------ LINKS ---------------- */
 
 a.about-link {color: #e3747c;text-decoration: none;}
