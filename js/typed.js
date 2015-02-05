@@ -356,7 +356,7 @@
         // backspacing speed
         backSpeed: 0,
         // time before backspacing
-        backDelay: 1300,
+        backDelay: 500,
         // loop
         loop: true,
         // false = infinite
