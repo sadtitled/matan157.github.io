@@ -1,11 +1,11 @@
 /* --------- BASIC STYLING FOR TAGS AND QUICK HTML STYLE CLASSES --------*/
 p {padding-bottom: 1em;}
 
-h1 {font-size: 4.5em;}
+h1 {font-family: 'nexa_boldregular', sans-serif; font-size: 4.5em;}
 
-h2 {font-size: 3em;}
+h2 {font-family: 'nexa_boldregular', sans-serif;font-size: 3em;}
 
-h3 {font-size: 2.5em;}
+h3 {font-family: 'nexa_boldregular', sans-serif;font-size: 2.5em;}
 
 .lato {font-family: 'Lato', sans-serif;}
 
