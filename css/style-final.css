@@ -39,8 +39,6 @@ h3 {font-family: 'nexa_boldregular', sans-serif;font-size: 2.5em;}
 #contact {
 	color: white;
 	background: #343433;
-	padding-bottom: 3em;
-	min-height: 700px;
 }
 
 /* ----------- SECTION CHANGES ----------------- */
@@ -133,16 +131,6 @@ footer ul.quicklinks {
     line-height: 40px;
 }
 
-input, textarea {
-	width: 100%;
-	padding: 0.5em;
-	border-radius: 5px;
-	border: none;
-	margin-bottom: 1em;
-	color: black;
-
-}
-
 .social-footer {
 	padding: 0 2em;
 	font-size: 2em;
@@ -165,36 +153,6 @@ input, textarea {
 	font-weight: 300;
 	font-size: 1.7em;
 	text-align: center;
-}
-
-.contact {
-	text-align: center;
-}
-
-.contact-resolve {
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 3em;
-	font-style: italic;
-	color: white;
-	text-align: center;
-}
-
-.btn-xl {
-    padding: 15px 30px;
-    border-color: #eba553;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-family: 'Lato',sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: .05em;
-    color: #fff;
-    background-color: #e3747c;
-}
-
-.btn-xl:hover, .btn-xl:active {
-	background-color: #a54b4b;
 }
 
 /* ------------ LINKS ---------------- */
