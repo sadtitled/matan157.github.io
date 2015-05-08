@@ -292,6 +292,11 @@ a.social-link-foot:hover {
 }
 
 @media (max-width: 1199px) {
+	#header {
+	background: url(../img/header-bg.jpg);
+	background-size: cover;
+	height: 40em;
+	}	
 	.navbar{
 		font-size: 0.6em;
 	}
