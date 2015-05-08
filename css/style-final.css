@@ -110,6 +110,10 @@ img.me-img {
 	padding-top: 1em;
 }
 
+.showFlyer {
+	margin: 0 auto;
+}
+
 footer {
     padding: 3em 0;
     text-align: center;
