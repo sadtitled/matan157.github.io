@@ -67,6 +67,12 @@ h3 {font-family: 'nexa_boldregular', sans-serif;font-size: 2.5em;}
 	padding-bottom: -1.0em;
 }
 
+.thanks-sub {
+	font-family: 'nexa_lightregular', sans-serif;
+	text-align: center;
+	font-size: 1em;
+	padding-bottom: 1em;
+}
 .section-sub-header {
 	font-family: 'nexa_lightregular', sans-serif;
 	text-align: center;
