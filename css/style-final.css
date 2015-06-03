@@ -40,7 +40,8 @@ h3 {font-family: 'nexa_boldregular', sans-serif;font-size: 2.5em;}
 
 #contact {
 	color: white;
-	background: #343433;
+	background: #2b4758;
+	padding-bottom: 6em;
 }
 
 /* ----------- SECTION CHANGES ----------------- */
@@ -116,6 +117,22 @@ img.me-img {
 	margin: 0 auto;
 }
 
+.contactForm {
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+	padding-bottom: 2em;
+}
+
+.contactButton {
+	font: 'Lato', sans-serif;
+	color: white;
+    height: 4em;
+    width: 50%;
+    background: #34696f;
+    border: 2px solid rgba(33, 68, 72, 0.59);
+	text-align; center;
+}
 footer {
     padding: 3em 0;
     text-align: center;
