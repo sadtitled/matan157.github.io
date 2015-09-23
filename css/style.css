@@ -368,7 +368,7 @@ a.navbar-brand {
     }
 }
 
-@media(min-width: 769px) and (max-width: 1028px) {
+@media(min-width: 769px) and (max-width: 1474px) {
     .proj-head {
         text-align: center;
         text-transform: uppercase;
