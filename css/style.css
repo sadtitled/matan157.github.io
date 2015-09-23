@@ -330,7 +330,7 @@ a.navbar-brand {
 
 /* ------- END NAVBAR ---------- */
 
-@media(max-width: 768px) {
+@media(max-width: 1199px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: left;
