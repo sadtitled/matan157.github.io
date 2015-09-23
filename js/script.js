@@ -1,16 +1,28 @@
 $(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
 });
 
- $(function(){
-      		$(".typing").typed({
-       			strings: ["developer.", "designer.", "musician.", "problem solver."],
-        		typeSpeed: 0
-      		});
-  		});
+$(document).ready(function(){
+  $('.music-slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 700,
+    autoplay:true,
+    autoplaySpeed: 2000,
+    arrows:true,
+    mobileFirst: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });
+});
