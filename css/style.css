@@ -327,10 +327,22 @@ a.navbar-brand {
     /* Change color for horizontal lines */
 }
 
+/* --------- CISC 3150 Page ----------*/
+.cisc3150-header {
+    background-image: url("../cisc3150/imgs/cisc3150-header.jpg");
 
+    background-size: cover;
+}
+.cisc3150-title {
+    padding: 20% 0;
+    font-family: 'Bree Serif', serif;
+    font-size: 6em;
+    color: white;
+    text-align: center;
+}
 /* ------- END NAVBAR ---------- */
 
-@media(max-width: 768px) {
+@media(max-width: 1199px) {
     .navbar .navbar-nav {
         display: inline-block;
         float: left;
@@ -368,23 +380,76 @@ a.navbar-brand {
     }
 }
 
-@media(min-width: 769px) and (max-width: 1474px) {
-    .proj-head {
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 2.5em;
-        font-weight: 700;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
+
+/*  SECTIONS  */
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*  COLUMN SETUP  */
+
+.col {
+    display: block;
+    float: left;
+    margin: 0 0 1% 0%;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+
+/*  GROUPING  */
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+.group {
+    zoom: 1;
+    /* For IE 6/7 */
+}
+
+
+/*  GRID OF FOUR  */
+
+.span_4_of_4 {
+    width: 100%;
+}
+
+.span_3_of_4 {
+    width: 75%;
+}
+
+.span_2_of_4 {
+    width: 50%;
+}
+
+.span_1_of_4 {
+    width: 25%;
+}
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+    .col {
+        margin: 1% 0 1% 0%;
     }
-    .viewsitebtn {
-        background: rgba(0, 0, 0, 0);
-        padding: 10px 15px;
-        border: white 5px solid;
-        font-size: 2em;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-        margin-top: 200px;
+    .span_1_of_4,
+    .span_2_of_4,
+    .span_3_of_4,
+    .span_4_of_4 {
+        width: 100%;
     }
 }
