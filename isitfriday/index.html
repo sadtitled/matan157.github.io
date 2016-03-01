@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+	<script type="text/javascript">
+		var d = new Date();
+		var n = d.getDay();
+		var s = "";
+		if (n === 5) {
+			s = "YES!";
+		} else {
+			s = "NO";
+		}
+		function isItFriday() {
+			document.getElementById("isItFridayBody").innerHTML = s;
+		}
+	</script>
+	
+	<style>
+		html, body {
+			font-family: sans-serif;
+			font-size: 2em;
+			text-align: center;
+		}
+	</style>
+	
+</head>
+<body onload="isItFriday();">
+	<h1>Is it Friday?</h1>
+	<div id="isItFridayBody">
+	</div>
+</body>
+</html>
