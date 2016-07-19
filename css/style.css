@@ -101,7 +101,7 @@ section#contact form {
 
 img.me {
     border-radius: 50%;
-    border: 10px solid #57aba8;
+    border: 5px solid #57aba8;
     overflow: hidden;
     max-height: 150px;
     margin: 0 auto;
@@ -209,8 +209,6 @@ ul.skills-list li img {
 }
 
 .project-item {
-    height: 400px;
-    width: 100%;
     text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -219,18 +217,20 @@ ul.skills-list li img {
 .proj-head {
     text-align: center;
     text-transform: uppercase;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 700;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    vertical-align: middle;
 }
 
-.even {
+.project-wrapper {
+    padding: 4em 0;
+}
+
+div.projects div.project-item:nth-of-type(even) {
     background: #57aba8;
 }
 
-.odd {
+div.projects div.project-item:nth-of-type(odd) {
     background: #3e8481;
 }
 
@@ -241,19 +241,13 @@ ul.skills-list li img {
     font-size: 2em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    margin-top: 175px;
+    
 }
 
-.even .viewsitebtn:hover {
+.viewsitebtn:hover {
     transition: 0.3s;
     background: white;
-    color: #57aba8;
-}
-
-.odd .viewsitebtn:hover {
-    transition: 0.3s;
-    background: white;
-    color: #3e8481;
+    color: rgb(0,0,0);
 }
 
 .music-img {
