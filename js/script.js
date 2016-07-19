@@ -21,7 +21,7 @@ $(function () {
   });
 });
 
-(function() {
+$(function() {
   var projects = [
     {
       name: "Cold Wrecks",
@@ -75,4 +75,4 @@ $(function () {
     );
     $(".projects").append($item);
   })
-})();
+});
