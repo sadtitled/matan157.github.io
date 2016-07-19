@@ -1,4 +1,4 @@
-html. body {
+html, body {
     font-family: 'Open sans', sans-serif;
     height: 100%;
     width: 100%;
@@ -278,16 +278,10 @@ ul.skills-list li img {
 
 .navbar .navbar-nav {
     display: inline-block;
-    float: right;
     vertical-align: top;
 }
 
 .navbar .navbar-collapse {
-    text-align: center;
-}
-
-.navbar ul li {
-    margin: 0 auto;
     text-align: center;
 }
 
@@ -296,10 +290,14 @@ a.navbar-brand {
     color: white;
     font-size: 25px;
     font-weight: 300;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .navbar ul li a:hover {
     color: Black;
+    
 }
 
 .navbar-toggle {
@@ -316,7 +314,7 @@ a.navbar-brand {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fff !important;
+    border-color: #fff;
     /* Change border color around this buttons */
     background: #323232;
     /* Change background for button itself */
@@ -345,7 +343,6 @@ a.navbar-brand {
 @media(max-width: 1199px) {
     .navbar .navbar-nav {
         display: inline-block;
-        float: left;
         vertical-align: top;
     }
     .navbar-default .navbar-toggle .icon-bar {
