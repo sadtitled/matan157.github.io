@@ -1,7 +1,5 @@
-html, body {
+body {
     font-family: 'Open sans', sans-serif;
-    height: 100%;
-    width: 100%;
 }
 
 section#header {
@@ -332,13 +330,13 @@ a.navbar-brand {
 /* ------- END NAVBAR ---------- */
 
 @media(max-width: 1199px) {
-    .navbar .navbar-nav {
+    /*.navbar .navbar-nav {
         display: inline-block;
         vertical-align: top;
     }
     .navbar-default .navbar-toggle .icon-bar {
         background: #fff;
-        /* Change color for horizontal lines */
+        /* Change color for horizontal lines 
     }
     .nav {
         background: #272727;
@@ -365,7 +363,7 @@ a.navbar-brand {
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
         margin-top: 175px;
-    }
+    }*/
 }
 
 
