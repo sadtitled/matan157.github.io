@@ -1,10 +1,12 @@
 body {
     font-family: 'Open sans', sans-serif;
+    width: 100%;
 }
 
 section#header {
     max-height: 100%;
     background: #272727;
+    overflow: hidden;
 }
 
 section#header h1 {
@@ -254,6 +256,7 @@ div.projects div.project-item:nth-of-type(odd) {
 
 
 /* navbar */
+
 
 .navbar,
 .icon-bar {
