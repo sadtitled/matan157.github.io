@@ -1,8 +1,8 @@
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+$(function () {
+  $('a[href*=#]:not([href=#])').click(function () {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
@@ -13,16 +13,9 @@ $(function() {
   });
 });
 
-$(document).ready(function(){
-  $('.music-slider').slick({
-    dots: false,
-    infinite: true,
-    speed: 700,
-    autoplay:true,
-    autoplaySpeed: 2000,
-    arrows:true,
-    mobileFirst: true,
-    slidesToShow: 3,
-    slidesToScroll: 3
+$(function () {
+  $(".subheader").typed({
+    strings: ["Web Developer.", "Musician.", "Creative thinker."],
+    typeSpeed: 0
   });
 });
