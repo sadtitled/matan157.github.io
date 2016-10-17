@@ -29,9 +29,9 @@ $(function() {
       buttonValue: "See the Site"
     },
     {
-	    name: "Andrew Liebowitz Portfolio",
-	    url: "http://andrewliebowitz.xyz",
-	    buttonValue: "See the Site"
+      name: "Andrew Liebowitz Portfolio",
+      url: "http://andrewliebowitz.xyz",
+      buttonValue: "See the Site"
     },
     {
       name: "GreatEdge",
@@ -51,11 +51,6 @@ $(function() {
     {
       name: "Matan Uchen",
       url: "http://matanuchen.com",
-      buttonValue: "See the Site"
-    },
-    {
-      name: "Star Realms Counter",
-      url: "http://starrealmscounter.com",
       buttonValue: "See the Site"
     },
     {
